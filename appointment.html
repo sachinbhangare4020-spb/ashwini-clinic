@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Book Appointment | Ashwini Clinic</title><link rel="icon" href="img/logo.svg"><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<div class="top"><span>Mon–Sat 9:00 AM – 8:00 PM</span><span>Emergency: +91 8554954725</span></div>
+<nav><a class="logo" href="index.html"><img src="img/logo.svg" alt="Ashwini Clinic logo"><span>Ashwini Clinic</span></a><div class="links"><a href="home.html">Home</a><a href="appointment.html" class="btn">Book Appointment</a></div></nav>
+<div style="text-align:center;padding:30px 5% 0"><div class="docname dark">Dr. Siddhi Divekar</div></div>
+<section id="book" style="padding-top:10px"><h2 style="text-align:center">Book Appointment</h2><p class="sub" style="text-align:center">Choose department, doctor and illness. We will confirm on WhatsApp.</p>
+<form id="bookForm">
+<div class="row"><div><label>Patient Name</label><input id="name" required></div><div><label>Mobile Number</label><input id="phone" type="tel" pattern="[0-9]{10}" placeholder="10 digit number" required></div></div>
+<div class="row"><div><label>Department</label><select id="dept" required><option value="">Select department</option><option>Cosmetology &amp; Aesthetic</option><option>General Physician</option></select></div>
+<div><label>Doctor</label><select id="doctor" required><option value="">Select department first</option></select></div></div>
+<div id="avail">Doctor availability will appear here.</div>
+<div class="row"><div><label>Illness / Concern</label><select id="illness" required><option value="">Select department first</option></select></div>
+<div><label>Patient Type</label><select id="ptype" required><option>New patient</option><option>Emergency</option><option>Prescription</option><option>Waiting</option><option>Repeat patient</option></select></div></div>
+<div class="row"><div><label>Preferred Date</label><input id="date" type="date" required></div><div><label>Known Allergies (if any)</label><input id="allergy" placeholder="e.g. penicillin, dust, none"></div></div>
+<button class="btn" type="submit">Book via WhatsApp</button>
+</form></section>
+<footer>© 2026 Ashwini Clinic · Sample website · Please consult a doctor for medical advice.</footer>
+<script src="js/app.js"></script>
+</body></html>
